@@ -14,7 +14,7 @@ body {
 }
 
 .main {
-    margin: auto;
+    margin-top: 10vh;
 }
 
 button:focus {
@@ -22,15 +22,21 @@ button:focus {
     outline: none;
 }
 
+button:hover {
+    background-color: #cccccc;
+}
+
 h1 {
     color: #fff;
     font-family: 'Bungee Shade';
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
+    line-height: 105px;
 }
 
 button {
     margin: 0 auto;
+    margin-top: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
